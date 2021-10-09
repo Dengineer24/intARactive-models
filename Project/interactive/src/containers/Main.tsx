@@ -1,16 +1,21 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from '../components/Navbar'
-import Logo from "../assets/ProjectLogo.png"
-import Exit from "../assets/logout.png"
+import Home from "../pages/Home/Home"
+import Mechanics from "../pages/Mechanics/Mechanics"
+import About from "../pages/About/About"
+import Chatroom from '../pages/Chatroom/Chatroom';
 
-export default function Main(){
-    return(
-        <>
-        <Navbar />
-        <h2 className="self-center text-xl tracking-wide text-justify font-sourceSerifPro">
-                        IntARactive Models
-                    </h2>
-                    
-        </>
+export default function Main() {
+    return (
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route path='/' exact component={Home} />
+                <Route path='/mechanics' exact component={Mechanics} />
+                <Route path='/about' exact component={About} />
+                <Route path='/chatroom' exact component={Chatroom} />
+            </Switch>
+        </Router>
     )
 }
