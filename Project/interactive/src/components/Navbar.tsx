@@ -1,18 +1,18 @@
 import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import Exit from "../assets/logout.png"
-import Logo from "../assets/ProjectLogo.png"
+import LogoWhite from "../assets/ProjectLogoWhite.png"
 
 export default function Navbar() {
 	return (
 		<>
-			<nav className="bg-white shadow-lg">
+			<nav className="bg-black shadow-lg">
 				<div className="max-w-6xl mx-auto px-4">
 					<div className="flex justify-between">
 						<div className="flex space-x-7">
 
 							<Link to="/" className="flex items-center py-4 px-2">
-									<img src={Logo} alt="Logo" className="h-8 w-8 mr-2" />
+									<img src={LogoWhite} alt="Logo" className="h-8 w-8 mr-2" />
 									<span className="font-semibold text-gray-500 text-lg">Navigation</span>
 							</Link>
 

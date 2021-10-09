@@ -12,6 +12,10 @@ module.exports = {
         page404A: "#1C1023",
         page404B: "#B53FA6",
         page404C: "#351945",
+        blue: {
+          dark: "#282C4D",
+          light: "#E3EEF4",
+        }
       },
       zIndex: {
         "-1": "-1",
