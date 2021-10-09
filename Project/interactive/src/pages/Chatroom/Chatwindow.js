@@ -112,8 +112,14 @@ class ChatWindow extends React.Component {
               throw new Error("Unable to create channel, please reload this page");
             }
         } 
-
-    sendMessage = () => {
+      }
+      getToken = async (email) => {
+          const response = await axios.get(`http://localhost:5000/token/${email}`);
+          const { data } = response;
+          return data.token;
+      }
+       
+      sendMessage = () => {
         const { text, channel } = this.state;
         if (text) {
           this.setState({ loading: true });
@@ -121,7 +127,7 @@ class ChatWindow extends React.Component {
           this.setState({ text: "", loading: false });
         }
       };     
-    }
+      
     render() {
         const { loading, text, messages, channel } = this.state;
         const { location } = this.props;
@@ -193,12 +199,6 @@ class ChatWindow extends React.Component {
         );
     }
           
-}
-
-getToken = async (email) => {
-    const response = await axios.get(`http://localhost:5000/token/${email}`);
-    const { data } = response;
-    return data.token;
 }
 
 const styles = {
