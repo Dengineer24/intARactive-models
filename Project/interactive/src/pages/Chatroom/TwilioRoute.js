@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Chatroom from "./Chatroom";
 import ChatWindow from "./Chatwindow";
 
-function Router() {
+function TwilioRoute() {
   return (
     <BrowserRouter>
       <Switch>
@@ -14,4 +14,4 @@ function Router() {
   );
 }
 
-export default Router;
+export default TwilioRoute;
