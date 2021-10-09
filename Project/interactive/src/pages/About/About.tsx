@@ -76,24 +76,12 @@ export default function About() {
 	Mechanical engineering requires hands-on and visual experiments, yet students that take remote classes or homeschooled students face difficulties in understanding concepts because they do not have access to learning materials at home. And that is where IntARactive can help. 
             </p>
             
-            <p className="py-6"></p>
             
-            <blockquote className="border-l-4 border-blue-dark italic my-8 pl-8 md:pl-12">
-                Example of blockquote - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-            </blockquote>
-            <p className="py-6">Example code block:</p>
-            <pre className="bg-gray-900 rounded text-white font-mono text-base p-2 md:p-4">
-				<code className="break-words whitespace-pre-wrap">
-&lt;header className="site-header outer"&gt;
-&lt;div className="inner"&gt;
-
-&lt;/div&gt;
-&lt;/header&gt;
-				</code>
-			</pre>
+            <blockquote className="border-l-4 border-blue-dark italic my-8 pl-8 md:pl-12 font-Overpass">
+            I do think that a significant portion of the population of developed countries, and eventually all countries, will have AR experiences every day, almost like eating three meals a day. It will become that much a part of you. —Tim Cook
+                </blockquote>
             
-            
-            <hr className="border-b border-gray-400 py-4" />
+            <hr className="border-b border-gray-400" />
             
             <p className="py-6 font-Overpass">
             Leave quetions/suggestions in the chatroom!
@@ -110,7 +98,19 @@ export default function About() {
         </>
     )
 }
+/* sample block code
+<p className="py-6">Example code block:</p>
+            <pre className="bg-gray-900 rounded text-white font-mono text-base p-2 md:p-4">
+				<code className="break-words whitespace-pre-wrap">
+&lt;header className="site-header outer"&gt;
+&lt;div className="inner"&gt;
 
+&lt;/div&gt;
+&lt;/header&gt;
+				</code>
+			</pre>
+            
+            */
 
 /* no use
 <div className="flex items-center">
