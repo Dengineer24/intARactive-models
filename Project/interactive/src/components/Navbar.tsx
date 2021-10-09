@@ -11,11 +11,9 @@ export default function Navbar() {
 					<div className="flex justify-between">
 						<div className="flex space-x-7">
 
-							<Link to="/">
-								<a href="#" className="flex items-center py-4 px-2">
+							<Link to="/" className="flex items-center py-4 px-2">
 									<img src={Logo} alt="Logo" className="h-8 w-8 mr-2" />
 									<span className="font-semibold text-gray-500 text-lg">Navigation</span>
-								</a>
 							</Link>
 
 
