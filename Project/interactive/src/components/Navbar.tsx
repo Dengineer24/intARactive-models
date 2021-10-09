@@ -1,8 +1,5 @@
 import {Fragment} from 'react'
 //import { Link } from 'react-router-dom'
-//import Headroom from "react-headroom"
-//import { Menu, Popover, Transition } from '@headlessui/react'
-//import { MenuAlt3Icon, XIcon } from '@heroicons/react/outline'
 import Exit from "../assets/logout.png"
 import Logo from "../assets/ProjectLogo.png"
 
