@@ -19,16 +19,7 @@ export default function Mechanics() {
 
             <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 py-8">
 
-                <Link to='/dna'>
-                    <div className="m-8">
-                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
-                            <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src={SpureGearImg} />
-                            <div className="grid place-content-center mx-1 -mt-8 text-xl font-semibold text-gray-900 bg-homeImg font-sourceSerifPro">Spure Gear</div>
-                        </div>
-                    </div>
-                </Link>
-
-                <Link to='/sucrose'>
+                <Link to='/turbofan'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src=
@@ -38,17 +29,7 @@ export default function Mechanics() {
                     </div>
                 </Link>
 
-                <Link to='/glucoside'>
-                    <div className="m-8">
-                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
-                            <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src=
-                                {F6BoxerImg} />
-                            <div className="grid place-content-center mx-1 -mt-8 text-xl font-semibold text-gray-900 bg-homeImg font-sourceSerifPro">F6 Boxer</div>
-                        </div>
-                    </div>
-                </Link>
-
-                <Link to='/glucose'>
+                <Link to='/combustionengine'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src=
@@ -58,12 +39,31 @@ export default function Mechanics() {
                     </div>
                 </Link>
 
-                <Link to='/h2oMolecule'>
+                <Link to='/f6boxer'>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src=
+                                {F6BoxerImg} />
+                            <div className="grid place-content-center mx-1 -mt-8 text-xl font-semibold text-gray-900 bg-homeImg font-sourceSerifPro">F6 Boxer</div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to='/v8'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src=
                                 {V8Img} />
                             <div className="grid place-content-center mx-1 -mt-8 text-xl font-semibold text-gray-900 bg-homeImg font-sourceSerifPro">V8 Pontiac</div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to='/spuregear'>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <img className="pb-8 border-4 bg-white border-blue-600 rounded-lg" alt="" src={SpureGearImg} />
+                            <div className="grid place-content-center mx-1 -mt-8 text-xl font-semibold text-gray-900 bg-homeImg font-sourceSerifPro">Spure Gear</div>
                         </div>
                     </div>
                 </Link>
