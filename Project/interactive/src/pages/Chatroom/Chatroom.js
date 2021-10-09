@@ -21,7 +21,7 @@ class WelcomeScreen extends React.Component {
     login = () => {
         const {email, room } = this.state;
         if(email && room) {
-            this.props.history.push("chat", { room, enail });
+            this.props.history.push("chat", { room, email });
         }
     }
     handleChange = (event) => {

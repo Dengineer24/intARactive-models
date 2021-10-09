@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Chatroom from "./Chatroom";
+import WelcomeScreen from "./Chatroom";
 import ChatWindow from "./Chatwindow";
 
 function TwilioRoute() {
@@ -8,7 +8,7 @@ function TwilioRoute() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/chat" component={ChatWindow} />
-        <Route path="/" component={Chatroom} />
+        <Route path="/" component={WelcomeScreen} />
       </Switch>
     </BrowserRouter>
   );
