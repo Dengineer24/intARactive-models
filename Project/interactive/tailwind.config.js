@@ -27,6 +27,8 @@ module.exports = {
       'sourceSerifPro': ['Source Serif Pro'],
       "fontVollkorn": ['Vollkorn'],
       'body': ['Open Sans'],
+      'Arapey': ['Arapey', 'serif'],
+      'Overpass': ['Overpass', 'sans-serif']
     }
   },
   variants: {
