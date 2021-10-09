@@ -26,7 +26,7 @@ export default function About() {
         <>
 
             
-            <div className="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16 mt-16">
+            <div className="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16 mt-2">
          <div className="w-full lg:w-1/5 lg:px-6 text-xl text-gray-800 leading-normal">
             
             <div className="block lg:hidden sticky inset-0">
