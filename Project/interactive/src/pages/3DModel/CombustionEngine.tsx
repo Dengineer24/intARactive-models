@@ -380,6 +380,7 @@ function Details() {
     else {
         return (
             <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
+                <p className="self-center mx-8 text-xl tracking-wide text-justify font-fontVollkorn">Click on different parts of Internal combustion engine to know more.</p>
                 <p className="self-center mx-8 text-xl tracking-wide text-justify font-fontVollkorn">To view the 3D model in AR, scan the QR code or click on the button below.</p>
 
                 <div className="grid justify-center grid-cols-1 gap-2 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
