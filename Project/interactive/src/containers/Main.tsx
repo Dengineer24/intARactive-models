@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import Home from "../pages/Home/Home"
 import Mechanics from "../pages/Mechanics/Mechanics"
 import About from "../pages/About/About"
-import Chatroom from '../pages/Chatroom/Chatroom';
+import TwilioRoute from '../pages/Chatroom/TwilioRoute';
 
 export default function Main() {
     return (
@@ -14,7 +14,7 @@ export default function Main() {
                 <Route path='/' exact component={Home} />
                 <Route path='/mechanics' exact component={Mechanics} />
                 <Route path='/about' exact component={About} />
-                <Route path='/chatroom' exact component={Chatroom} />
+                <Route path='/chatroom' exact component={TwilioRoute} />
             </Switch>
         </Router>
     )
