@@ -7,15 +7,10 @@ export default function Home(){
     return (
         <>
         
-                    <p className="self-center text-xl tracking-wide text-justify font-sourceSerifPro">
+                    <h2 className="self-center text-xl tracking-wide text-justify font-sourceSerifPro">
                         IntARactive Models
-                    </p>
-                    <div className = "h-16">
-                        <img src ={Logo} alt = "img" className = "w-16 lg:w-32" />
-                    </div>
-                    <div className = "h-16">
-                        <img src ={Exit} alt = "img" className = "w-16 lg:w-32" />
-                    </div>
+                    </h2>
+                    
                 
         </>
     )
