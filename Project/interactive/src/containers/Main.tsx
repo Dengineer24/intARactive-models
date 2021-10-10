@@ -11,6 +11,7 @@ import CombustionEngine from "../pages/3DModel/CombustionEngine"
 import V8 from "../pages/3DModel/V8"
 import About from "../pages/About/About"
 import TwilioRoute from '../pages/Chatroom/TwilioRoute';
+import Chatroom from '../pages/Chatroom/Chatroom';
 
 export default function Main() {
     return (
@@ -25,6 +26,7 @@ export default function Main() {
                 <Route path='/combustionengine' exact component={CombustionEngine} />
                 <Route path='/v8' exact component={V8} />
                 <Route path='/about' exact component={About} />
+                <Route path='/chatroom' exact component={Chatroom} />
                 <TwilioRoute />
             </Switch>
             <Footer />

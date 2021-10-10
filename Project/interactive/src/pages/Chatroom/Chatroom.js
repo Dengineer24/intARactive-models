@@ -31,13 +31,7 @@ class WelcomeScreen extends React.Component {
         const { email, room } = this.state;
         return (
           <>
-            <AppBar style={styles.header} elevation={10}>
-              <Toolbar>
-                <Typography variant="h6">
-                  Chat App with Twilio Programmable Chat and React
-                </Typography>
-              </Toolbar>
-            </AppBar>
+            
             <Grid
               style={styles.grid}
               container
