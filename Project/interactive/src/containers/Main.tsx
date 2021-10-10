@@ -25,11 +25,9 @@ export default function Main() {
                 <Route path='/combustionengine' exact component={CombustionEngine} />
                 <Route path='/v8' exact component={V8} />
                 <Route path='/about' exact component={About} />
-                <Route path='/chatroom' exact component={TwilioRoute} />
+                <TwilioRoute />
             </Switch>
             <Footer />
         </Router>
     )
 }
-
-/* <Route path='/chatroom' exact component={TwilioRoute} /> */

@@ -37,5 +37,6 @@ const styles = {
   timestamp: { fontSize: 8, color: "white", textAlign: "right", paddingTop: 4 },
 };
 
+console.log("ChatItem ran!");
 export default ChatItem;
 console.log("ChatItem ran!");
