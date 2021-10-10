@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="469.89792"
+     height="470.13956"
+     viewBox="0 0 5.2210878 5.2237729"
+     id="svg4152"
+     version="1.1"
+     inkscape:version="0.91 r13725"
+     sodipodi:docname="Gear-001.svg">
+    <defs
+         id="defs4154">
+        <linearGradient
+             id="linearGradient4147">
+            <stop
+                 style="stop-color:#f6e900;stop-opacity:1"
+                 offset="0"
+                 id="stop4149" />
+            <stop
+                 style="stop-color:black;stop-opacity:1"
+                 offset="1"
+                 id="stop4151" />
+        </linearGradient>
+        <linearGradient
+             id="linearGradient4135">
+            <stop
+                 style="stop-color:#ffdc02;stop-opacity:1"
+                 offset="0"
+                 id="stop4137" />
+            <stop
+                 id="stop4145"
+                 offset="0.58017784"
+                 style="stop-color:#ffe702;stop-opacity:1" />
+            <stop
+                 id="stop4143"
+                 offset="0.58572346"
+                 style="stop-color:#ff0202;stop-opacity:1" />
+            <stop
+                 style="stop-color:#ff0202;stop-opacity:1"
+                 offset="1"
+                 id="stop4139" />
+        </linearGradient>
+    </defs>
+    <sodipodi:namedview
+         inkscape:document-units="px"
+         pagecolor="white"
+         bordercolor="#666666"
+         borderopacity="1.0"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="1.8930549"
+         inkscape:cx="234.94896"
+         inkscape:cy="235.06978"
+         inkscape:current-layer="layer1"
+         id="namedview4156"
+         showgrid="false"
+         inkscape:window-width="1600"
+         inkscape:window-height="1116"
+         inkscape:window-x="-4"
+         inkscape:window-y="-3"
+         inkscape:window-maximized="1"
+         units="px"
+         borderlayer="true"
+         fit-margin-top="10"
+         fit-margin-left="10"
+         fit-margin-right="10"
+         fit-margin-bottom="10" />
+    <metadata
+         id="metadata4158">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title />
+                <cc:license
+                     rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Sonshine Design</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Sonshine Penguin</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+            </cc:Work>
+            <cc:License
+                 rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+                <cc:permits
+                     rdf:resource="http://creativecommons.org/ns#Reproduction" />
+                <cc:permits
+                     rdf:resource="http://creativecommons.org/ns#Distribution" />
+                <cc:permits
+                     rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+            </cc:License>
+        </rdf:RDF>
+    </metadata>
+    <g
+         inkscape:label="Layer 1"
+         inkscape:groupmode="layer"
+         id="layer1"
+         transform="translate(-3.4970818,2.4440807)">
+        <path
+             style="color:black;fill-rule:evenodd;stroke-width:0.01111111;stroke-linecap:round;stroke-linejoin:round"
+             d="M 198.26367 13.583984 C 193.85885 13.642956 187.49513 14.691729 178.39648 17.054688 C 113.69503 33.857966 202.08725 41.363161 143.93945 74.339844 C 85.791671 107.31654 124.72326 27.605196 77.091797 74.507812 C 29.460325 121.41078 109.76365 83.711211 75.894531 141.34375 C 42.025391 198.9763 35.884589 110.47737 18.085938 174.91211 C 0.28726848 239.34685 50.984009 166.54872 50.46875 233.39453 C 49.9535 300.24035 0.38422192 226.66769 17.1875 291.36914 C 33.990778 356.07059 41.495974 267.67642 74.472656 325.82422 C 107.44934 383.972 27.73801 345.04236 74.640625 392.67383 C 121.54359 440.30528 83.844013 360.00197 141.47656 393.87109 C 199.10909 427.74022 110.61019 433.87908 175.04492 451.67773 C 239.47966 469.4764 166.68154 418.78163 233.52734 419.29688 C 300.37316 419.81167 226.80047 469.3814 291.50195 452.57812 C 356.20341 435.77483 267.80923 428.26966 325.95703 395.29297 C 384.10483 362.31628 345.17518 442.02779 392.80664 395.125 C 440.43809 348.22221 360.13478 385.9216 394.00391 328.28906 C 427.87303 270.65651 434.01189 359.15544 451.81055 294.7207 C 469.60921 230.28595 418.91639 303.0841 419.43164 236.23828 C 419.94734 169.39247 469.51226 242.96513 452.70898 178.26367 C 435.9057 113.56221 428.40247 201.95444 395.42578 143.80664 C 362.4491 85.65885 442.1606 124.59044 395.25781 76.958984 C 348.35503 29.327512 386.05246 109.63085 328.41992 75.761719 C 270.78738 41.892596 359.28824 35.75373 294.85352 17.955078 C 290.82629 16.842678 287.33312 15.997405 284.31055 15.390625 C 238.9711 6.2926153 299.03904 50.817032 236.37109 50.333984 C 178.92545 49.890805 225.18205 13.223602 198.26367 13.583984 z M 238.04883 114.85742 A 119.99998 119.99998 0 0 1 258.39258 117.12891 A 119.99998 119.99998 0 0 1 352.63672 258.26172 A 119.99998 119.99998 0 0 1 246.94922 354.09766 L 246.94922 370.13867 L 222.94922 370.13867 L 222.94922 354.09961 A 119.99998 119.99998 0 0 1 211.50391 352.50391 A 119.99998 119.99998 0 0 1 117.26172 211.37109 A 119.99998 119.99998 0 0 1 238.04883 114.85742 z "
+             transform="matrix(0.01111111,0,0,0.01111111,3.4970816,-2.4440807)"
+             id="path4133" />
+    </g>
+</svg>
