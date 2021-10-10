@@ -207,7 +207,7 @@ const styles = {
     gridItem: { paddingTop: 12, paddingBottom: 12 },
     gridItemChatList: { overflow: "auto", height: "70vh" },
     gridItemMessage: { marginTop: 12, marginBottom: 12 },
-    sendButton: { backgroundColor: "#3f51b5" },
+    sendButton: { backgroundColor: "#282C4D" },
     sendIcon: { color: "white" },
     mainGrid: { paddingTop: 100, borderWidth: 1 },
 };
