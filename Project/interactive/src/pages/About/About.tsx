@@ -72,7 +72,7 @@ export default function About() {
             
          <h1 className="py-2 font-semibold font-Overpass text-black text-lg">💡 Inspiration</h1>
             <p className="py-6 font-Overpass">
-            Our project strives to discover possible solutions to the question in the Education track: What can technology facilitate in helping parents in homeschooling their children?
+            &emsp; Our project strives to discover possible solutions to the question in the Education track: What can technology facilitate in helping parents in homeschooling their children?
 	Mechanical engineering requires hands-on and visual experiments, yet students that take remote classes or homeschooled students face difficulties in understanding concepts because they do not have access to learning materials at home. And that is where IntARactive can help. 
             </p>
             
