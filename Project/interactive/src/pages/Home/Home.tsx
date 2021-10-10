@@ -16,9 +16,9 @@ export default function Home(){
                             <h2 className="self-center mb-4 text-5xl font-bold tracking-wider text-blue-dark font-Overpass md:text-4xl lg:text-7xl">IntARactive</h2>
 
                             <p className="self-center text-xl tracking-wide text-justify font-Overpass">
-                                PlaceHolder text
+                                Hands-on brought straight to you!
                             </p>
-
+                            
                             <Link to="/mechanics" className="md:w-1/3">
                                 <button className="self-center p-2 px-8 mt-4 text-base font-semibold tracking-wider text-white border rounded-full shadow-sm font-Overpass md:w-full bg-blue-dark bg-blue-dark  hover:shadow-lg ">Explore</button>
                             </Link>
