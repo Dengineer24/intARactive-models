@@ -2,20 +2,6 @@ import React, { useContext } from "react";
 import Main from "./containers/Main"
 import Loading from "./containers/Loading"
 import ReactDOM from "react-router-dom"
-/*
-function App() {
-
-    return (
-        <>
-            <div className="App">
-
-                <Main />
-
-            </div>
-        </>
-    );
-}
-*/
 
 class App extends React.Component {
     state = {
@@ -45,9 +31,7 @@ class App extends React.Component {
       return (
         <>
             <div className="App">
-
                 <Main />
-
             </div>
         </>
       ); 
