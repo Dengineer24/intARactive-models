@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from "../../assets/ProjectLogoWhite.png"
 import Exit from "../../assets/logout.png"
+import Gear1W from "../../assets/gear1FullW.svg"
 
 export default function Home(){
     return (
