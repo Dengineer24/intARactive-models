@@ -69,7 +69,7 @@ class ChatWindow extends React.Component {
         if (!email || !room) {
             this.props.histroy.replace("/");
         }
-
+        console.log('attempted componentDidMount!')
         this.setState({loading: true});
 
         try {
@@ -211,6 +211,7 @@ const styles = {
     sendIcon: { color: "white" },
     mainGrid: { paddingTop: 100, borderWidth: 1 },
 };
-  
+
+console.log("ChatWindow ran!");
 export default ChatWindow;
 console.log("ChatWindow ran!");

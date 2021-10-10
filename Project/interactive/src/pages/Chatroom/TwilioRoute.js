@@ -14,5 +14,6 @@ function TwilioRoute() {
   );
 }
 
+console.log("TwilioRoute ran!");
 export default TwilioRoute;
 console.log("TwilioRoute ran!");
