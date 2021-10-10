@@ -2,8 +2,6 @@ require('dotenv').config();
 
 // Node/Express
 const express = require('express');
-const cors = require('cors');
-app.use(cors());
 const http = require('http');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -13,6 +11,8 @@ const syncServiceDetails = require('./src/sync_service_details');
 
 // Create Express webapp
 const app = express();
+const cors = require('cors');
+app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Add body parser for Notify device registration
