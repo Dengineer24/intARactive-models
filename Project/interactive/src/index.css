@@ -43,10 +43,20 @@
       transform: rotate(360deg);
     }
   }
-
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 
   body{
     background: #E3EEF4;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
   body>h1{
     text-transform: uppercase; 
