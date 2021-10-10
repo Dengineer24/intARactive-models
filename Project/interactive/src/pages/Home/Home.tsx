@@ -15,7 +15,7 @@ export default function Home(){
 
                         <div className="pr-4 md:flex md:flex-col md:justify-center align-middle pt-0">
 
-                            <h2 className="self-center mb-4 text-5xl font-bold tracking-wider text-blue-dark font-Overpass md:text-4xl lg:text-7xl">IntARactive</h2>
+                            <h2 className="self-center mb-4 text-5xl font-bold tracking-wider text-blue-dark font-Overpass md:text-4xl lg:text-7xl">Int<span className="text-8xl">AR</span>active</h2>
 
                             <p className="self-center text-xl tracking-wide text-justify font-Overpass">
                                 Hands-on brought straight to you!
