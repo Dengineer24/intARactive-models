@@ -213,3 +213,4 @@ const styles = {
 };
   
 export default ChatWindow;
+console.log("ChatWindow ran!");

@@ -95,3 +95,4 @@ const styles = {
 };
 
 export default WelcomeScreen;
+console.log("Cahtroom ran!");
