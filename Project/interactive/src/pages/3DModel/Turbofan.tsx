@@ -118,10 +118,10 @@ function Details() {
                 <p className="self-center mx-8 text-xl tracking-wide text-justify font-fontVollkorn">Click on different parts of Turbofan to know more.</p>
                 <p className="self-center mx-8 text-xl tracking-wide text-justify font-fontVollkorn">To view the 3D model in AR, scan the QR code or click on the button below.</p>
 
-                <div className="grid justify-center grid-cols-1 gap-2 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
-                    <img className="flex p-6 text-6xl rounded-xl h-48 w-48" src="https://storage.echoar.xyz/wispy-violet-4999/aa0d5fab-ee55-4e17-a85e-63e46c5310ba" alt="Mechanical QR" />
+                <div className="grid place-item-center">
+                    <img className="block p-6 text-6xl rounded-xl h-48 min-w-48" src="https://storage.echoar.xyz/wispy-violet-4999/aa0d5fab-ee55-4e17-a85e-63e46c5310ba" alt="Mechanical QR" />
                     <a href="https://go.echoar.xyz/8Pzf" target="_blank" rel="noreferrer">
-                        <button className="h-12 px-8 ml-8 text-base font-semibold tracking-wider text-white border rounded-full shadow-sm font-fontVollkorn mt-16 bg-red-50 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:shadow-lg">View in AR</button>
+                        <button className="h-12 px-8 ml-8 text-base font-semibold tracking-wider text-white border rounded-full shadow-sm font-fontVollkorn bg-red-50 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:shadow-lg">View in AR</button>
                     </a>
                 </div>
             </div>

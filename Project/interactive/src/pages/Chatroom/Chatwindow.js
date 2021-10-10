@@ -147,11 +147,12 @@ class ChatWindow extends React.Component {
                 </Typography>
               </Toolbar>
             </AppBar> */}
+            <div className="font-Overpass ">
             <Typography variant="h6">
                   {`Room: ${room}, User: ${email}`}
                 </Typography>
             <CssBaseline />
-      
+      </div>
             <Grid container direction="column" style={styles.mainGrid}>
               <Grid item style={styles.gridItemChatList} ref={this.scrollDiv}>
                 <List dense={true}>

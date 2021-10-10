@@ -30,7 +30,8 @@ class WelcomeScreen extends React.Component {
     render() {
         const { email, room } = this.state;
         return (
-          <>
+          <div className="h-screen pt-16">
+          
             
             <Grid
               style={styles.grid}
@@ -73,7 +74,7 @@ class WelcomeScreen extends React.Component {
                 </Grid>
               </Card>
             </Grid>
-          </>
+          </div>
         );
       }
 }
@@ -81,10 +82,10 @@ class WelcomeScreen extends React.Component {
 const styles = {
     header: {},
     grid: { positon: "absolute", top: 0, left: 0, right: 0, bottom: 0 },
-    card: { padding: 40 },
+    card: { padding: 40, borderRadius:16},
     textField: { width: 300 },
     gridItem: { paddingTop: 12, paddingBottom: 12 },
-    button: { width: 300 },
+    button: { width: 300, borderRadius:20, backgroundColor: "#282C4D"},
 
 };
 
