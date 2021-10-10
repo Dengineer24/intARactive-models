@@ -78,9 +78,9 @@
       margin: 0px auto;
       position: fixed;
       top: 35%;
-        left: 40%;
+      left: 42%; 
   }
-  .gears{
+    .gears{
     width:48%;
     display: inline-block;
   }

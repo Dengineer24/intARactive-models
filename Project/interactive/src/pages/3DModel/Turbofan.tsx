@@ -132,7 +132,7 @@ function Details() {
 export default function Turbofan() {
     return (
         <>
-            <div className="pt-8 bg-ARbg">
+            <div className="pt-8 bg-blue-light">
 
                 <Link to="/mechanics" className="ml-8">Go Back</Link>
 

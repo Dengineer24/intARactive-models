@@ -10,7 +10,7 @@ class App extends React.Component {
   
     componentDidMount() {
       // this simulates an async action, after which the component will render the content
-      demoAsyncCall().then(() => this.setState({ loading: false }));
+      demoAsyncCall().then(() => this.setState({ loading: true }));
     }
 
     render() {

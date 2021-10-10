@@ -26,8 +26,9 @@ export default function Home(){
                         </div>
 
                         <div className="h-full">
-                            <img src={Logo} alt="img" className="w-full lg:p-10" />
+                            <img src={Gear1W} alt="img" className="w-full lg:p-10" />
                         </div>
+                        
 
                     </div>
                 </div>
