@@ -1,64 +1,4 @@
-
-import * as React from 'react';
-import { TabPanel, useTabs } from './index';
-import { TabSelector } from './TabSelector';
-
-export function Basic() {
-  const [selectedTab, setSelectedTab] = useTabs([
-    'inspiration',
-    'what-is-this',
-    'future',
-    'team',
-  ]);
-
-  return (
-    <>
-      <nav className="flex border-b border-gray-300">
-        <TabSelector
-          isActive={selectedTab === 'inspiration'}
-          onClick={() => setSelectedTab('inspiration')}
-        >
-          Inpsiration
-        </TabSelector>
-        <TabSelector
-          isActive={selectedTab === 'what-is-this'}
-          onClick={() => setSelectedTab('what-is-this')}
-        >
-          What is this?
-        </TabSelector>
-        <TabSelector
-          isActive={selectedTab === 'future'}
-          onClick={() => setSelectedTab('future')}
-        >
-          Future
-        </TabSelector>
-      </nav>
-      <div className="p-4">
-        <TabPanel hidden={selectedTab !== 'inspiration'}>Students require hands-on and visual experiments, yet students that 
- take remote classes or home-schooled students face difficulties in 
- understanding concepts because they do not have access to hands 
- on learning materials at home. And that's were our project, 
- IntARactive models, can help!
-</TabPanel>
-        <TabPanel hidden={selectedTab !== 'what-is-this'}>IntARactive models is a web app where Mechanical Engineering 
-Students can come along and learn with a more hands-on experience 
-through the use of 3D models and AR. There is also a chatroom function 
-created with Twilio which allows students to find peer students with 
-similar interests and ask questions and collaborate.</TabPanel>
-        <TabPanel hidden={selectedTab !== 'future'}> 
-- Add Virtual Reality (VR) functionality
-- Increasing Subject range (Biology, Electrical Engineering)
-- Customized 3D models </TabPanel>
-      </div>
-    </>
-  );
-}
-
-
-
-
-
-
+import React from 'react'
 // style="top:5em;"
 //{{&gt; "site-nav"}}
 
@@ -81,9 +21,7 @@ similar interests and ask questions and collaborate.</TabPanel>
             </ol>
             */
 
-/*
-
- export default function About() {
+export default function About() {
     return (
         <>
 
@@ -112,7 +50,17 @@ similar interests and ask questions and collaborate.</TabPanel>
                   </li>
                   <li className="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
                      <a href="#" className="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-dark border-l-4 border-transparent lg:hover:border-gray-400">
-                     <span className="pb-1 md:pb-0 text-sm">Future expansion </span>
+                     <span className="pb-1 md:pb-0 text-sm">Challenges </span>
+                     </a>
+                  </li>
+                  <li className="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
+                     <a href="#" className="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-dark border-l-4 border-transparent lg:hover:border-gray-400">
+                     <span className="pb-1 md:pb-0 text-sm">Analytics</span>
+                     </a>
+                  </li>
+                  <li className="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
+                     <a href="#" className="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-dark border-l-4 border-transparent lg:hover:border-gray-400">
+                     <span className="pb-1 md:pb-0 text-sm">Payments</span>
                      </a>
                   </li>
                </ul>
@@ -149,9 +97,7 @@ similar interests and ask questions and collaborate.</TabPanel>
 
         </>
     )
-} */
-
-
+}
 /* sample block code
 <p className="py-6">Example code block:</p>
             <pre className="bg-gray-900 rounded text-white font-mono text-base p-2 md:p-4">
@@ -179,4 +125,3 @@ similar interests and ask questions and collaborate.</TabPanel>
                   <p className="text-xs text-gray-600 pt-2">0 out of 0 found this useful</p>
                </div>
             </div>*/
-
