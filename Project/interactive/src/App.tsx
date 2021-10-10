@@ -19,7 +19,7 @@ function App() {
 
 class App extends React.Component {
     state = {
-      loading: false
+      loading: true
     };
   
     componentDidMount() {
@@ -55,7 +55,7 @@ class App extends React.Component {
   }
   
   function demoAsyncCall() {
-    return new Promise((resolve) => setTimeout(() => resolve('success'), 2500));}
+    return new Promise((resolve) => setTimeout(() => resolve('success'), 1000));}
   /*
   
   ReactDOM.render(

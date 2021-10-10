@@ -66,6 +66,9 @@
       width: 100%;
       max-width: 725px;
       margin: 0px auto;
+      position: fixed;
+      top: 35%;
+        left: 40%;
   }
   .gears{
     width:48%;
@@ -80,7 +83,7 @@
       font-size:24px;
       padding: 9%;
       position: relative; 
-      margin: 0px auto;
+      margin: 0px 0px;
   }
   .message{
     text-align: left;
@@ -103,14 +106,14 @@
       height: 2em;
     top: 50%; 
     left: 50%; 
-    margin-top: -1em;
-    margin-left: -1em;
+    margin-top: -0.6em;
+    margin-left: -0.6em;
       background: #282C4D;
       position: absolute;
       border-radius: 1em;
-      -webkit-animation: 1s gear-rotate linear infinite;
-      -moz-animation: 1s gear-rotate linear infinite;
-      animation: 1s gear-rotate linear infinite;
+      -webkit-animation: 2s gear-rotate linear infinite;
+      -moz-animation: 2s gear-rotate linear infinite;
+      animation: 2s gear-rotate linear infinite;
   }
   .gear-rotate-left{
     margin-top: -2.2em;
@@ -120,9 +123,9 @@
       background: #282C4D;
       position: absolute;
       border-radius: 1em;
-    -webkit-animation: 1s gear-rotate-left linear infinite;
-    -moz-animation: 1s gear-rotate-left linear infinite;
-    animation: 1s gear-rotate-left linear infinite;
+    -webkit-animation: 2s gear-rotate-left linear infinite;
+    -moz-animation: 2s gear-rotate-left linear infinite;
+    animation: 2s gear-rotate-left linear infinite;
   }
   
   .gear-rotate::before, .gear-rotate-left::before {
@@ -195,27 +198,27 @@
   
   @-webkit-keyframes gear-rotate-left {
    0% {
-     -webkit-transform: rotate(30deg); 
+     -webkit-transform: rotate(50deg); 
     }
     100% {
-      -webkit-transform: rotate(210deg);
+      -webkit-transform: rotate(230deg);
     }
   }
   
   @-moz-keyframes gear-rotate-left {
    0% { 
-     -webkit-transform: rotate(30deg); 
+     -webkit-transform: rotate(50deg); 
     }
     100% { 
-      -webkit-transform: rotate(210deg);
+      -webkit-transform: rotate(230deg);
     }
   }
   
   @keyframes gear-rotate-left {
    0% { 
-     -webkit-transform: rotate(30deg); 
+     -webkit-transform: rotate(50deg); 
     }
     100% { 
-      -webkit-transform: rotate(210deg);
+      -webkit-transform: rotate(230deg);
     }
   }

@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import Exit from "../assets/logout.png"
 import Logo from "../assets/ProjectLogo.png"
+import GithubIcon from "../assets/GithubIcon.png"
 
 export default function Navbar() {
 	return (
@@ -13,17 +14,22 @@ export default function Navbar() {
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                 <div className="flex flex-col">
                     <span className="font-bold font-Overpass text-white uppercase mb-2">Made by</span>
-                    <span className="my-2"><a href="#" className="text-gray-300  font-Overpass text-md hover:text-blue-light">Harshal Raikwar</a></span>
-                    <span className="my-2"><a href="#" className="text-gray-300  font-Overpass text-md hover:text-blue-light">George Stouraitis</a></span>
-                    <span className="my-2"><a href="#" className="text-gray-300  font-Overpass text-md hover:text-blue-light">Xiaolan Huang</a></span>
 					
-                    <span className="my-2"><a href="#" className="text-gray-300  font-Overpass text-md hover:text-blue-light">Dengi</a></span>
+                    <span className="my-1"><a href="https://github.com/Harshal0902" className="text-gray-300  font-Overpass text-md hover:text-blue-light">
+					<img src={GithubIcon} alt="Logo" className="h-6 w-6 mr-2 inline" />
+						Harshal Raikwar</a></span>
+                    <span className="my-1"><a href="https://github.com/ProgramMastur" className="text-gray-300  font-Overpass text-md hover:text-blue-light">
+					<img src={GithubIcon} alt="Logo" className="h-6 w-6 mr-2 inline" />George Stouraitis</a></span>
+                    <span className="my-1"><a href="https://github.com/Mielan" className="text-gray-300  font-Overpass text-md hover:text-blue-light">
+					<img src={GithubIcon} alt="Logo" className="h-6 w-6 mr-2 inline" />Xiaolan Huang</a></span>
+                    <span className="my-1"><a href="https://github.com/Dengineer24" className="text-gray-300  font-Overpass text-md hover:text-blue-light">
+					<img src={GithubIcon} alt="Logo" className="h-6 w-6 mr-2 inline" />Dhruv Engineer</a></span>
                 </div>
             </div>
         </div>
     </div>
     <div className="container mx-auto px-6">
-        <div className="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+        <div className="mt-8 border-t-2 border-gray-300 flex flex-col items-center">
             <div className="sm:w-2/3 text-center py-6">
                 <p className="text-sm text-blue-700 font-bold mb-2">
                     

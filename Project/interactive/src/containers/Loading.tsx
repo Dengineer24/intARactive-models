@@ -15,8 +15,8 @@ import About from "../pages/About/About"
 export default function Loading() {
     return (
         
-            <div id="wrapper">
-
+        
+        <div id="wrapper">
 <div className="gears" id="two-gears">
   
   <div className="gears-container">
@@ -28,7 +28,6 @@ export default function Loading() {
 </div>
 
 </div>
-            
         
     )
 }
