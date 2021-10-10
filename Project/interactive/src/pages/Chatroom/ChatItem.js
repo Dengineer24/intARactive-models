@@ -38,3 +38,4 @@ const styles = {
 };
 
 export default ChatItem;
+console.log("ChatItem ran!");
