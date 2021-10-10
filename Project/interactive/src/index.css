@@ -77,7 +77,7 @@
       max-width: 725px;
       margin: 0px auto;
       position: fixed;
-      top: 35%;
+      top: 40%;
       left: 42%; 
   }
     .gears{
@@ -114,10 +114,10 @@
   .gear-rotate{
       width: 2em;
       height: 2em;
-    top: 50%; 
-    left: 50%; 
-    margin-top: -0.6em;
-    margin-left: -0.6em;
+    /* top: 50%; 
+    left: 50%;  */
+    margin-top: -0.35em;
+    margin-left: -1.55em;
       background: #282C4D;
       position: absolute;
       border-radius: 1em;
@@ -127,7 +127,7 @@
   }
   .gear-rotate-left{
     margin-top: -2.2em;
-    top: 50%;
+    /* top: 50%; */
     width: 2em;
       height: 2em;
       background: #282C4D;
