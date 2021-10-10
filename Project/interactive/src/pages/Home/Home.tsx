@@ -9,15 +9,15 @@ import Gear3W from "../../assets/gear3FullW.svg"
 export default function Home(){
     return (
         <>
-            <div className=" bg-darkHome h-screen w-full">
+            <div className=" bg-moredarkHome h-screen w-full">
                 <div className="p-4 origin-bottom-right lg:mx-36 md:mx-8">
                     <div className="p-4 space-y-10 md:space-y-0 md:grid md:grid-cols-2">
 
                         <div className="pr-4 md:flex md:flex-col md:justify-center align-middle pt-0">
 
-                            <h2 className="self-center mb-4 text-5xl font-bold tracking-wider text-blue-dark font-Overpass md:text-4xl lg:text-7xl">Int<span className="text-8xl">AR</span>active</h2>
+                            <h2 className="self-center mb-4 text-5xl font-bold tracking-wider text-white font-Overpass md:text-4xl lg:text-7xl">Int<span className="text-8xl">AR</span>active</h2>
 
-                            <p className="self-center text-xl tracking-wide text-justify font-Overpass">
+                            <p className="self-center text-xl tracking-wide text-justify font-Overpass text-gray-200">
                                 Hands-on brought straight to you!
                             </p>
                             <div className="w-full grid place-items-center">

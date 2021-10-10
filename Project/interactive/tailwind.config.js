@@ -18,6 +18,8 @@ module.exports = {
       colors: {
         homeImg: '#DCE4F7',
         darkHome: '#7885AA',
+        
+        moredarkHome: '#13181C',
         // ARbg: '#80ffd4',
         page404A: "#1C1023",
         page404B: "#B53FA6",
