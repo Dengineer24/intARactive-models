@@ -4,11 +4,21 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 5s linear infinite',
+        'spin-slow': 'spin 20s linear infinite',
+        'reverse-spin' : 'reverse-spin 40s linear infinite',
       },
+      keyframes: {
+        'reverse-spin': {
+          from: {
+            transform: 'rotate(360deg)',
+          },
+        },
+      },
+    
       colors: {
         homeImg: '#DCE4F7',
-        ARbg: '#80ffd4',
+        darkHome: '#7885AA',
+        // ARbg: '#80ffd4',
         page404A: "#1C1023",
         page404B: "#B53FA6",
         page404C: "#351945",

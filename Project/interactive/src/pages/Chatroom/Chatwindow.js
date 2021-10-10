@@ -140,14 +140,16 @@ class ChatWindow extends React.Component {
               <CircularProgress style={{ color: "white" }} />
             </Backdrop>
       
-            <AppBar elevation={10}>
+            {/* <AppBar elevation={10}>
               <Toolbar>
                 <Typography variant="h6">
                   {`Room: ${room}, User: ${email}`}
                 </Typography>
               </Toolbar>
-            </AppBar>
-      
+            </AppBar> */}
+            <Typography variant="h6">
+                  {`Room: ${room}, User: ${email}`}
+                </Typography>
             <CssBaseline />
       
             <Grid container direction="column" style={styles.mainGrid}>

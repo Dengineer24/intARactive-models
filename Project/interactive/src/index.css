@@ -52,6 +52,19 @@
      }
 }
 
+.gear1-rotate{
+
+/* top: 50%; 
+left: 50%;  */
+/* margin-top: -0.35em;
+margin-left: -1.55em; */
+ 
+  position: absolute;
+  /* border-radius: 1em; */
+  -webkit-animation: 2s gear-rotate linear infinite;
+  -moz-animation: 2s gear-rotate linear infinite;
+  animation: 2s gear-rotate linear infinite;
+}
   body{
     background: #E3EEF4;
     animation: fadeInAnimation ease 3s;
@@ -111,6 +124,7 @@
     font-size: 1rem;
     border-bottom: 4px solid #DE1B1B; 
   }
+
   .gear-rotate{
       width: 2em;
       height: 2em;
