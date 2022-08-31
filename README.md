@@ -1,6 +1,6 @@
 # intARactive-models
 
-##💡 Inspiration:
+## 💡 Inspiration:
 
 Our project strives to discover possible solutions to the question in the Education track: What can technology facilitate in helping parents in homeschooling their children?
 
@@ -10,7 +10,7 @@ Our project strives to discover possible solutions to the question in the Educat
  on learning materials at home. And that's were our project, 
  IntARactive models, can help!
 
-##💻 What it does:
+## 💻 What it does:
 
 IntARactive models is a web app where Mechanical Engineering 
 Students can come along and learn with a more hands-on experience 
